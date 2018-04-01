@@ -1,5 +1,7 @@
 # 从零开始构建LevelDB
 
+[![Build Status](https://travis-ci.org/red-chen/min-leveldb.png?branch=master)](https://travis-ci.org/red-chen/min-leveldb)
+
 ### 背景
 
 对于云计算从业者，Google的几篇论文，比如GFS、MapReduce、BigTable一定耳熟能详，这几篇文章也为当前分布式大数据指明基本方向，
