@@ -1,5 +1,7 @@
 # 从零开始构建LevelDB
 
+[![Build Status](https://travis-ci.org/red-chen/min-leveldb.png?branch=master)](https://travis-ci.org/red-chen/min-leveldb)
+
 ### 背景
 
 对于云计算从业者，Google的几篇论文，比如GFS、MapReduce、BigTable一定耳熟能详，这几篇文章也为当前分布式大数据指明基本方向，
@@ -13,15 +15,4 @@ LevelDB中并没有比较特别的新技术，只是为保证业务的需要，�
 本项目选用Golang作为开发语言
 
 ### 目录
-1. [TODO 定义数据库接口，明确需求](TODO)
-1. [TODO 构建自动回归](TODO)
-2. [TODO 使用最简单的方式实现数据的读取](TODO)
-3. [TODO 将数据持久化](TODO)
-4. [TODO 重读LevelDB](TODO)
-5. [TODO 通过积攒数据，批量持久化数据 - MemTable](TODO)
-6. [TODO 格式化磁盘数据，实现快速查询 - SSTable](TODO)
-7. [TODO Failover场景数据可靠性 - Log](TODO)
-8. [TODO 怎么清理垃圾数据 - Compaction](TODO)
-9. [TODO 数据库原罪 - 负载均衡、分区热点](TODO)
-10. [TODO 问题定位 - logging & metric & tracing](TODO)
-11. [TODO 性能测试](TODO)
+1. [定义数据库接口，明确需求](/doc/chp1.md)
